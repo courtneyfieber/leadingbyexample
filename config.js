@@ -5,24 +5,24 @@ const config = {
   CSV: "./leadingbyexample.csv",
   center: [-71.109734,42.373615],
   zoom: 6,
-  title: "Leading by Example",
+  title: "Federal Agencies Leading by Example",
   description:
-    "Federal agencies across the country are taking action now to implement the President's Federal Sustainability Plan and Executive Order 14XX. View each project on the map to learn more.",
-  sideBarInfo: ["location_name", "description"],
-  popupInfo: ["location_name", "description"],
+    "Description",
+  sideBarInfo: ["Location_Name", "Snippet"],
+  popupInfo: ["Location_Name", "Snippet"],
   filters: [
     {
       type: "dropdown",
       title: "Select Agency: ",
-      columnHeader: "agency",
+      columnHeader: "Agency",
       listItems: [
         "Department of Transportation",
       ],
     },
     {
       type: "dropdown",
-      title: "Goal(s) achieved: ",
-      columnHeader: "type", // Case sensitive - must match spreadsheet entry
+      title: "Goal achieved: ",
+      columnHeader: "Type", // Case sensitive - must match spreadsheet entry
       listItems: [
         "Carbon Pollution-Free Electricity", 
         "Zero-Emissions Fleet", 
@@ -39,7 +39,7 @@ const config = {
     {
       type: "dropdown",
       title: "Select State: ",
-      columnHeader: "state",
+      columnHeader: "State",
       listItems: [
         "MA",
       ],
