@@ -3,13 +3,15 @@ const config = {
   accessToken:
     "pk.eyJ1IjoiY2ZpZWJlciIsImEiOiJja3J3aG44MGIwZ3IzMm9vN2NvajczZzJwIn0.B9P8F_VRLzdMtl2TNgzZpg",
   CSV: "./leadingbyexample.csv",
-  center: [-71.109734,42.373615],
-  zoom: 6,
+  center: [-77.0365581,38.8949924],
+  zoom: 3,
+  maxzoom:11,
   title: "Federal Agencies Leading by Example",
   description:
-    "Federal agencies across the country are taking action now to implement the President's Federal Sustainability Plan and Executive Order 14XX. View successful projects on the map below.",
+    "Federal agencies across the country are taking action now to implement the President's Federal Sustainability Plan and Executive Order 14XX.",
   sideBarInfo: ["Location_Name", "Snippet"],
   popupInfo: ["Location_Name"],
+  url: ["URL"],
   filters: [
     {
       type: "dropdown",

@@ -9,6 +9,11 @@
 
 }
 
+a{
+    color:rgb(0, 0, 238);
+    text-decoration:underline;
+}
+
 .theme{
     background-color: #2A395F;
 }
@@ -21,6 +26,7 @@
 .mapboxgl-ctrl-geocoder--input {
     padding: 6px 30px;
     margin-left: 5px;
+    display:none;
 }
 
 .listings .item {
@@ -28,6 +34,7 @@
     word-wrap: break-word;
     text-decoration: none;
     border-bottom: solid rgb(34, 33, 33, .3) 1px;
+    padding:1em 1em 2em 1em;
 }
 
 .listings .item:last-child {

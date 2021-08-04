@@ -13,6 +13,7 @@ const map = new mapboxgl.Map({
   style: config.style,
   center: config.center,
   zoom: config.zoom,
+  maxzoom: config.maxzoom,
   transformRequest: transformRequest,
 });
 
@@ -57,6 +58,10 @@ function buildLocationList(locationData) {
     /* Add details to the individual listing. */
     const details = listing.appendChild(document.createElement("div"));
     details.className = "content";
+    
+    /* Add url to the individual listing. */
+    const url = listing.appendChild(document.createElement("div"));
+    url.innerHTML = '<a href="' + prop[config.url] + '">Learn more</a>.';
 
     for (let i = 1; i < columnHeaders.length; i++) {
       const div = document.createElement("div");
