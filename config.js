@@ -8,7 +8,7 @@ const config = {
   title: "Federal Agencies Leading by Example",
   description:
     "Description",
-  sideBarInfo: ["Location_Name", "Snippet"],
+  sideBarInfo: ["Location_Name", "Snippet", "URL"],
   popupInfo: ["Location_Name"],
   filters: [
     {
@@ -17,6 +17,7 @@ const config = {
       columnHeader: "Agency",
       listItems: [
         "Department of Transportation",
+        "Department of Energy",
       ],
     },
     {
@@ -41,6 +42,7 @@ const config = {
       columnHeader: "State",
       listItems: [
         "MA",
+        "LA",
       ],
     },
   ],
