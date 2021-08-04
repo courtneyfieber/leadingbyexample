@@ -7,7 +7,7 @@ const config = {
   zoom: 6,
   title: "Federal Agencies Leading by Example",
   description:
-    "Description",
+    "Federal agencies across the country are taking action now to implement the President's Federal Sustainability Plan and Executive Order 14XX. View successful projects on the map below.",
   sideBarInfo: ["Location_Name", "Snippet", "URL"],
   popupInfo: ["Location_Name"],
   filters: [
