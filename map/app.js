@@ -58,7 +58,7 @@ function buildLocationList(locationData) {
     /* Add details to the individual listing. */
     const details = listing.appendChild(document.createElement("div"));
     details.className = "content";
-    details.url = "url";
+    details.innerHTML = '<a href="' + currentFeature.properties[config.url] + '"</a>';
 
     for (let i = 1; i < columnHeaders.length; i++) {
       const div = document.createElement("div");
