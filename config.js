@@ -24,7 +24,7 @@ const config = {
     },
     {
       type: "dropdown",
-      title: "Goal achieved: ",
+      title: "Project Element: ",
       columnHeader: "Type",
       listItems: [
         "Carbon Pollution-Free Electricity", 
