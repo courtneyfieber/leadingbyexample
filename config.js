@@ -10,7 +10,7 @@ const config = {
   description:
     "Federal agencies across the country are taking action now to implement the President's Federal Sustainability Plan and Executive Order 14XX.",
   sideBarInfo: ["Location_Name", "Snippet"],
-  popupInfo: ["Image", "Location_Name", "Snippet"],
+  popupInfo: ["Popup"],
   url: ["URL"],
   image: ["Image"],
   filters: [
@@ -19,8 +19,8 @@ const config = {
       title: "Select Agency: ",
       columnHeader: "Agency",
       listItems: [
-        "Department of Transportation",
         "Department of Energy",
+        "Department of Transportation",
       ],
     },
     {
@@ -44,8 +44,8 @@ const config = {
       title: "Select State: ",
       columnHeader: "State",
       listItems: [
-        "MA",
         "LA",
+        "MA",
       ],
     },
   ],
