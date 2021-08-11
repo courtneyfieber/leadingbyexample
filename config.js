@@ -10,8 +10,9 @@ const config = {
   description:
     "Federal agencies across the country are taking action now to implement the President's Federal Sustainability Plan and Executive Order 14XX.",
   sideBarInfo: ["Location_Name", "Snippet"],
-  popupInfo: ["Location_Name"],
+  popupInfo: ["Image", "Location_Name", "Snippet"],
   url: ["URL"],
+  image: ["Image"],
   filters: [
     {
       type: "dropdown",
