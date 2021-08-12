@@ -19,6 +19,7 @@ const config = {
       title: "Select Agency: ",
       columnHeader: "Agency",
       listItems: [
+        "Department of Defense",
         "Department of Energy",
         "Department of Transportation",
       ],
@@ -44,8 +45,15 @@ const config = {
       title: "Select State: ",
       columnHeader: "State",
       listItems: [
+        "AZ",
+        "CA",
+        "CO",
+        "DC",
+        "HI",
         "LA",
         "MA",
+        "MS",
+        "SC",
       ],
     },
   ],
