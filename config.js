@@ -4,7 +4,7 @@ const config = {
     "pk.eyJ1IjoiY2ZpZWJlciIsImEiOiJja3J3aG44MGIwZ3IzMm9vN2NvajczZzJwIn0.B9P8F_VRLzdMtl2TNgzZpg",
   CSV: "./leadingbyexample.csv",
   center: [-77.0365581,38.8949924],
-  zoom: 4,
+  zoom: 1,
   maxzoom:5,
   title: "Federal Agencies Leading by Example",
   description:

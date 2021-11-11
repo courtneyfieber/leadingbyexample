@@ -456,7 +456,7 @@ map.on("load", function () {
           },
           paint: {
             "circle-radius": 15, // size of circles
-            "circle-color": "#7CFC00", // color of circles
+            "circle-color": "#0047AB", // color of circles
             "circle-stroke-color": "white",
             "circle-stroke-width": 1,
             "circle-opacity": 0.7,
