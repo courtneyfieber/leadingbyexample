@@ -20,7 +20,7 @@ const map = new mapboxgl.Map({
 function flyToLocation(currentFeature) {
   map.flyTo({
     center: currentFeature,
-    zoom: 11,
+    zoom: config.maxzoom,
   });
 }
 
@@ -53,7 +53,7 @@ function buildLocationList(locationData) {
     link.className = "title";
     link.id = "link-" + prop.id;
     link.innerHTML =
-      '<p style="line-height: 1.25">' + prop[columnHeaders[0]] + "</p>";
+      '<p>' + prop[columnHeaders[0]] + "</p>";
 
     /* Add details to the individual listing. */
     const details = listing.appendChild(document.createElement("div"));
@@ -455,8 +455,8 @@ map.on("load", function () {
             data: geojsonData,
           },
           paint: {
-            "circle-radius": 5, // size of circles
-            "circle-color": "#3D2E5D", // color of circles
+            "circle-radius": 15, // size of circles
+            "circle-color": "#7CFC00", // color of circles
             "circle-stroke-color": "white",
             "circle-stroke-width": 1,
             "circle-opacity": 0.7,

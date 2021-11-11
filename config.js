@@ -5,7 +5,7 @@ const config = {
   CSV: "./leadingbyexample.csv",
   center: [-77.0365581,38.8949924],
   zoom: 4,
-  maxzoom:7,
+  maxzoom:5,
   title: "Federal Agencies Leading by Example",
   description:
     "Federal agencies across the country are taking action now to implement the President's Federal Sustainability Plan and Executive Order 14XX.",
