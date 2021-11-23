@@ -4,7 +4,7 @@ const config = {
     "pk.eyJ1IjoiY2ZpZWJlciIsImEiOiJja3J3aG44MGIwZ3IzMm9vN2NvajczZzJwIn0.B9P8F_VRLzdMtl2TNgzZpg",
   CSV: "./leadingbyexample.csv",
   center: [-77.0365581,38.8949924],
-  zoom: 3,
+  zoom: 2,
   maxzoom:5,
   title: "Federal Agencies Leading by Example",
   description:
@@ -21,6 +21,7 @@ const config = {
       listItems: [
         "Department of Defense",
         "Department of Energy",
+        "Department of Homeland Security",
         "Department of Transportation",
         "Department of Veterans Affairs",
         "U.S. Army Corps of Engineers",
@@ -49,10 +50,12 @@ const config = {
       listItems: [
         "CA",
         "CO",
+        "CT",
         "DC",
         "HI",
         "LA",
         "MA",
+        "MS",
         "NY",
       ],
     },
