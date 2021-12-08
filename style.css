@@ -15,7 +15,7 @@ a{
     color:rgb(0, 0, 238);
     text-decoration:underline;
 }
-.bottomborder{border-bottom: 15px solid #efefef;}
+.bottomborder{background-color:#fff;border-bottom: 5px solid #efefef;}
 .goback{display:block;background-color: #004884;color:#fff;text-decoration: none;width:100%;font-weight: bold;font-size: 80%;padding:12px;}
 
 .theme{
